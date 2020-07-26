@@ -1,0 +1,271 @@
+/*公共样式*/
+.page_box {
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+}
+
+/*表格*/
+/deep/ .yz_table {
+	.table_header {
+		font-size: 12px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: rgba(112, 119, 144, 1);
+
+		.cell {
+			line-height: 20px;
+		}
+
+		th {
+			background: #f1f2f7;
+		}
+	}
+	.el-table__body {
+		font-size: 12px;
+
+		.cell {
+			line-height: 20px;
+		}
+		.tableBut {
+			font-size: 20px;
+			color: #677eff;
+			cursor: pointer;
+			margin: 0 5px;
+		}
+		.iconfont {
+			font-size: 18px;
+		}
+	}
+}
+.el-table td,
+.el-table th.is-leaf {
+	border-bottom: 1px solid #083859;
+}
+.el-table::before {
+	background-color: #083859;
+}
+.el-table tr {
+	background-color: rgba(0, 37, 62, 0);
+	color: #fff;
+}
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+	background-color: #0b3d61 ;
+}
+.el-table__empty-block{
+	background-color:rgba(0, 37, 62, 1);
+}
+
+/*分页*/
+/deep/ .yz_pageBox {
+	margin-top: 10px;
+	text-align: right;
+	.totalItem {
+		float: left;
+	}
+	.el-pagination.is-background .el-pager li {
+		width: 18px;
+		min-width: auto;
+		height: 18px;
+		line-height: 18px;
+		font-size: 12px;
+		padding: 0;
+		border-radius: 50%;
+		background: transparent;
+		margin-top: 6px;
+	}
+
+	li:not(.disabled).active {
+		background: linear-gradient(-44deg, #5972fe 0%, #879aff 100%);
+	}
+
+	.el-pager .more::before {
+		line-height: 18px;
+	}
+
+	.el-pagination.is-background .el-pager li:not(.disabled).active {
+		background: linear-gradient(-44deg, #5972fe 0%, #879aff 100%);
+	}
+
+	.el-pagination button,
+	.el-pagination span:not([class*="suffix"]) {
+		height: 18px;
+		line-height: 18px;
+	}
+
+	.el-pagination.is-background .btn-next,
+	.el-pagination.is-background .btn-prev {
+		background: transparent;
+		margin-top: 6px;
+	}
+
+	.el-pagination .el-select .el-input {
+		width: 85px;
+	}
+
+	.el-pagination .el-select .el-input .el-input__inner {
+		height: 28px;
+	}
+}
+
+/*表单*/
+/deep/ .yz_search_form {
+	.el-form-item__label {
+		font-size: 12px;
+		font-family: PingFang SC;
+		font-weight: 400;
+		color: rgba(37, 45, 71, 1);
+		width: 60px;
+		text-align: left;
+	}
+
+	.el-select__caret {
+		color: rgba(37, 45, 71, 1);
+		font-size: 12px;
+		width: 15px;
+	}
+
+	.el-form-item {
+		margin: 0 5px 0 0;
+	}
+
+	.el-input__inner {
+		font-size: 12px;
+		color: rgba(37, 45, 71, 1);
+	}
+
+	.el-input__suffix {
+		height: 99%;
+	}
+
+	.el-form-item__content {
+		.el-input__inner {
+			padding: 0 10px 0 10px;
+			height: 30px;
+			width: 160px !important;
+		}
+	}
+	.el-input .el-input__inner {
+		padding: 0 10px 0 10px;
+		height: 30px !important;
+		width: 160px !important;
+	}
+
+	.el-form-item__error {
+		padding-top: 0;
+		margin-top: -13px;
+	}
+}
+
+/*多选框*/
+.page_box {
+	/deep/ .el-checkbox__input.is-checked .el-checkbox__inner {
+		background: linear-gradient(43deg, rgba(89, 114, 254, 1) 0%, rgba(135, 154, 255, 1) 100%);
+		border-radius: 3px;
+		border-color: rgba(135, 154, 255, 1);
+	}
+	/deep/ .el-checkbox__input.is-focus .el-checkbox__inner {
+		border-color: rgba(135, 154, 255, 1);
+	}
+	/deep/ .el-checkbox__input.is-checked + .el-checkbox__label {
+		color: #606266;
+		font-size: 12px;
+		font-family: PingFangSC-Regular, PingFangSC;
+		font-weight: 400;
+	}
+	/deep/ .el-checkbox .el-checkbox__label {
+		color: #606266;
+		font-size: 12px;
+		font-family: PingFangSC-Regular, PingFangSC;
+		font-weight: 400;
+	}
+}
+
+/*按钮*/
+.sure_but {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	background: linear-gradient(317deg, rgba(107, 152, 245, 1) 0%, rgba(117, 100, 255, 1) 100%);
+	box-shadow: 0px 8px 18px rgba(37, 107, 249, 0.31);
+	border-radius: 2px;
+	border: none;
+	font-size: 12px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+}
+.cancel_but {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: #677eff;
+	border: 1px solid #677eff;
+	font-size: 12px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	border-radius: 2px;
+	padding: 0;
+}
+
+/*单选*/
+.publicRadio {
+	/deep/ .el-radio__label {
+		color: #252d47;
+		font-size: 12px;
+		position: relative;
+		top: -1px;
+	}
+	/deep/ .is-checked {
+		.el-radio__inner {
+			border-color: rgba(135, 154, 255, 1);
+			background: linear-gradient(43deg, rgba(89, 114, 254, 1) 0%, rgba(135, 154, 255, 1) 100%);
+		}
+	}
+}
+
+/*滚动条*/
+::-webkit-scrollbar-track-piece {
+	background-color: #f5f5f5;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	border-radius: 2px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(43, 150, 253, 1);
+	background-clip: padding-box;
+	min-height: 28px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(43, 150, 253, 1);
+}
+
+// 分页
+.el-pagination.is-background .el-pager li {
+	background-color: rgba(0, 37, 62, 0);
+}
+.el-pagination.is-background .btn-prev {
+	background-color: rgba(0, 37, 62, 0);
+	border: 1px solid #40a7ae;
+}
+.el-pagination.is-background .btn-next {
+	background-color: rgba(0, 37, 62, 0);
+	border: 1px solid #40a7ae;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+	background-color: rgba(6, 47, 76, 1);
+	border: 1px solid #40a7ae;
+}
+.el-pagination .el-select .el-input .el-input__inner {
+	border: 1px solid #40a7ae;
+}
+.el-pagination__editor.el-input .el-input__inner {
+	border: 1px solid #40a7ae;
+}

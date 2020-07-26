@@ -1,0 +1,31 @@
+.head{
+   position: absolute;
+   left: 25px;
+   top: 20px;
+    
+    /deep/ .el-tabs{
+        .el-tabs__item{
+            color: #fff;
+    
+            &.is-active{
+                color:#55EBFF;
+            }
+        }
+
+        .el-tabs__active-bar{
+            background-color: #55EBFF;
+        }
+
+        .el-tabs__nav-wrap::after{
+            display: none;
+        }
+        .el-tab-pane{
+            display: none;
+        }
+    }
+}
+
+.energy-map-container{
+    height: 100%;
+    position: relative;
+}

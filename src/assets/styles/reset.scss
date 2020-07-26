@@ -1,0 +1,213 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  // border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.colorPickerPopup input {
+  line-height: 1.15 !important;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  caption,
+  th,
+  td {
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+input {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner {
+  border: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  margin: 0;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+:focus {
+  outline: none;
+}
+
+a img {
+  border: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+}
+
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+// 字体配置
+// @font-face {
+//   font-family: 'PingFangSC';
+//   src: url('../fonts/PingFangSC-Regular.ttf');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'PingFangSC-Medium';
+//   src: url('../fonts/PingFangSC-Medium.ttf');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, button {
+  font-family: 'PingFangSC-Regular'
+}

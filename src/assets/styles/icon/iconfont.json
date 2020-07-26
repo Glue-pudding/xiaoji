@@ -1,0 +1,16 @@
+{
+  "id": "1961233",
+  "name": "ZhiHui",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11504223",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

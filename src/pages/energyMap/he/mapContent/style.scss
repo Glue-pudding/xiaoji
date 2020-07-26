@@ -1,0 +1,135 @@
+$baseImg: '../../../../assets/images/energy_map/';
+.info-window{
+    width: 554px;
+    padding-bottom: 20px;
+    border: 1px solid rgba(47, 177, 255, 0.6);
+    background: rgba(9, 56, 88, 1);
+    box-shadow: 0 0 16px 0 rgba(84, 201, 255, 0.5) inset;
+    position: relative;
+
+    .top{
+        display: flex;
+        align-items: center;
+        // height: 26px;
+        padding: 15px 40px;
+        border-bottom: 1px solid #175380;
+
+        .btn{
+            height: 26px;
+            background: rgba(94, 244, 255, 0.26);
+            border-radius: 2px;
+            text-align: center;
+            line-height: 26px;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 400;
+            padding: 0 20px;
+        }
+
+        .name{
+            font-size: 18px;
+            color:rgba(94,244,255,1);
+            font-weight: 500;
+            text-align: center;
+            padding-right: 30px;
+            flex: 1;
+        }
+
+        .close{
+            width: 10px;
+            height: 10px;
+            background: url($baseImg+'close.png') center no-repeat;
+            cursor: pointer;
+        }
+    }
+
+    .middle-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 40px;
+        color: #819FB8;
+        font-size: 14px;
+        font-weight: 400;
+
+        span{
+            font-weight: 500;
+            color: #fff;
+            margin-left: 16px;
+        }
+
+        p{
+            padding: 8px 0;
+        }
+    }
+
+    #main{
+        width: 100%;
+        height: 233px;
+    }
+
+    .total{
+        font-size: 14px;
+        font-weight: 400;
+        color: #d3d3d3;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+
+        .value{
+            font-size: 18px;
+            font-weight: 500;
+            color: #5EF4FF;
+            margin-left: 14px;
+        }
+    }
+}
+
+.map-container{
+    width: 100%;
+    height: 100%;
+}
+
+.legend{
+    height: 72px;
+    padding: 0 20px;
+    background: rgba(3, 63, 94, 0.6);
+    border:1px solid rgba(51,153,255,0.3);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #fff;
+    li{
+        float: left;
+    }
+
+    .color{
+        width: 80px;
+        height: 10px;
+        margin-bottom: 10px;
+
+        &.color1{
+            background: #0098ce;
+        }
+        &.color2{
+            background: #00e9d0;
+        }
+        &.color3{
+            background: #ffac35;
+        }
+        &.color4{
+            background: #ff6100;
+        }
+        &.color5{
+            background: red;
+        }
+    }
+}
+
+#mapContainer{
+    width: 100%;
+    height: 100%;
+}
